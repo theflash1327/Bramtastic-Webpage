@@ -1,0 +1,69 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+@font-face {
+    font-family: 'falling_sky_ext';
+    src: url('Fonts/fallingskyext.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header h1 {
+	line-height: 132px;
+	margin-right: 20px;
+	text-align: center;
+	font-family: 'falling_sky_ext';
+	color: white;
+	font-size: 2.2em;
+}
+
+footer h1 {
+	line-height: 149px;
+	letter-spacing: .1px;
+	margin-right: 0px;
+	text-align: center;
+	font-family: 'falling_sky_ext';
+	color: white;
+	font-size: 2.16em;
+}
+
+#container {
+	min-height: 100%;
+	position: relative;
+}
+
+#header {
+	width: 100%;
+	height: 11.4em;
+	background-color: #333333;
+	padding: 10px;
+}
+
+#blog {
+	padding-top: 3.8em;
+	padding-right: 3.82519em;
+	padding-bottom: 16.45em;
+	padding-left: 3.82519em;
+}
+
+#footer {
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 12.6em;
+	background-color: #131430;
+}
+
+#blog p {
+	font-size: 1em;
+	font-family: Arial, sans-serif;
+}
+
+#blog img {
+	width: 68.85em;
+	height: 34.85em;
+	padding-bottom: .25em;
+}
