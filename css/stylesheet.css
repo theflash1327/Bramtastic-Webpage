@@ -6,7 +6,7 @@ html, body {
 
 @font-face {
     font-family: 'falling_sky_ext';
-    src: url('Fonts/fallingskyext.otf') format('opentype');
+    src: url('../Fonts/fallingskyext.otf') format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -15,7 +15,7 @@ a {
 	text-decoration: none;
 }
 
-h1:hover {
+#hover:hover {
 	color: orange;
 }
 
