@@ -45,19 +45,17 @@ footer h1 {
 
 #header {
 	width: 100%;
-	height: 11.4em;
-	background-image: url("../Images/rainbow-background.jpg");
-	background-size: cover;
-	padding: 10px;
+	height: 25%;
+	position: fixed;
+	background-color: #333333;
 }
 
 #blog {
-	padding-top: 3.8em;
+	position: fixed;
+	padding-top: 20em;
 	padding-right: 3.82519em;
 	padding-bottom: 16.45em;
 	padding-left: 3.82519em;
-	background-image: url("../Images/beach.jpg");
-	background-size: cover;
 }
 
 #footer {
@@ -65,30 +63,16 @@ footer h1 {
 	bottom: 0;
 	width: 100%;
 	height: 12.6em;
-	background-image: url("../Images/rainbow-background.jpg");
-	background-size: cover;
+	background-color: #131430;
 }
 
-#blog p, li {
-	font-size: 2em;
-	font-family: "Comic Sans MS";
-	color: #FF1D8E;
+#blog p {
+	font-size: 1em;
+	font-family: Arial, sans-serif;
 }
 
-#sticker {
-	float: right;
-	height: 20em;
-	width: 20em;
-}
-
-#crop {
-	display: inline-block;
+#blog img {
 	width: 68.85em;
 	height: 34.85em;
-}
-
-#crop img {
-	width: 68.85em;
-	background-size: cover;
 	padding-bottom: .25em;
 }
